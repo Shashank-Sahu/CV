@@ -30,9 +30,9 @@ hr {
 /************************Class Tags************************/
 
 .intro {
-    padding: 25px;
+    padding:50px;
     background-image: url(../images/intro-back.jpg);
-    background-attachment: fixed;
+    background-attachment: local;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -44,6 +44,6 @@ hr {
     text-decoration: solid;
 }
 
-.about {
-    padding: 20px;
+.content {
+    padding: 10px 50px;
 }
