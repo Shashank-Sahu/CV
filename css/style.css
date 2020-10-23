@@ -22,7 +22,7 @@ h2 {
 hr {
     border-style: none;
     border-top: dotted;
-    border-color: grey;
+    border-color: rgb(70, 68, 68);
     border-top-width: 5px;
     width: 5%;
 }
