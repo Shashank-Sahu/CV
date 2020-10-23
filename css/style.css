@@ -4,6 +4,9 @@ body {
     margin: 0;
     background-color: #cbf1f5;
     font-family: 'PT Sans', sans-serif;
+    line-height: 2;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 h1 {
@@ -12,38 +15,73 @@ h1 {
 }
 
 h3 {
+    font-size: 1.5rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h2 {
+    font-size: 2.5rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 hr {
+    margin-bottom: 50px;
     border-style: none;
     border-top: dotted;
     border-color: rgb(70, 68, 68);
     border-top-width: 5px;
     width: 5%;
+    clear: both;
 }
 
 /************************Class Tags************************/
 
 .intro {
-    padding:50px;
+    padding: 50px;
     background-image: url(../images/intro-back.jpg);
     background-attachment: local;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
     font-family: 'Staatliches', cursive;
-    font-size: large;
+    font-size: 2rem;
 }
 
-.srm {
+.bio {
+    margin: auto;
+    width: 70%;
+}
+
+.srm-link {
     text-decoration: solid;
 }
 
 .content {
-    padding: 10px 50px;
+    padding-top: 20px;
+    margin: auto;
+    width: 60%;
+}
+
+.design-discription {
+    text-align: left;
+}
+
+.design-img {
+    margin-right: 30px;
+    float: left;
+    width: 25%;
+}
+
+.languages-img {
+    margin-left: 30px;
+    float: right;
+    width: 25%;
+}
+
+.languages-discription {
+    text-align: left;
+}
+
+.contact-table {
+    text-align: left;
+    margin: auto;
 }
