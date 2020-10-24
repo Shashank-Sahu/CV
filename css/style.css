@@ -18,13 +18,13 @@ h1 {
 h3 {
     color: #c75a32;
     font-size: 1.5rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
     color: #d38526;
     font-size: 2.5rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 hr {
@@ -54,6 +54,7 @@ footer {
     background-size: cover;
     font-family: 'Staatliches', cursive;
     font-size: 2rem;
+    color: black;
 }
 
 .bio {
@@ -126,6 +127,10 @@ footer {
     background-image: -o-linear-gradient(top, #fca63c, #d95a34);
     background-image: linear-gradient(to bottom, #fca63c, #d95a34);
     text-decoration: none;
+}
+
+footer > p{
+    margin: 0;
 }
 
 .links {
