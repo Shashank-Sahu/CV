@@ -20,6 +20,7 @@ h3 {
     color: #c75a32;
     font-size: 1.5rem;
     font-family: 'Ubuntu', sans-serif;
+
 }
 
 h2 {
@@ -68,26 +69,22 @@ footer {
     text-decoration: solid;
 }
 
-.content {
-    padding-top: 20px;
-    margin: auto;
-    width: 60%;
-}
-
 .design-discription {
-    text-align: left;
+    text-align: right;
 }
 
 .design-img {
-    margin-right: 30px;
-    float: left;
-    width: 25%;
+    margin: 30px;
+    margin-top: 0;
+    width: 150px;
+    height: 150px;
 }
 
 .languages-img {
-    margin-left: 30px;
-    float: right;
-    width: 25%;
+    margin: 30px;
+    margin-top: 0;
+    width: 150px;
+    height: 150px;
 }
 
 .languages-discription {
@@ -149,4 +146,32 @@ footer>p {
 .mylink:hover {
     text-decoration: none;
     color: #6babb3;
+}
+
+.glink:hover {
+    text-decoration: none;
+}
+
+
+@media(max-width: 1000px) {
+
+    .languages-discription,
+    .design-discription {
+        text-align: center;
+    }
+}
+
+@media (min-width:1000px) {
+    .toleft {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .box2 {
+        order: 2;
+    }
+
+    .box1 {
+        order: 1;
+    }
 }
